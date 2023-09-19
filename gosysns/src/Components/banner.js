@@ -2,14 +2,14 @@ import React from "react";
 import banner from "../assets/1.jpg";
 import logo from "../assets/3.PNG";
 const Banner = () => {
-  // Define the background image URL
   const backgroundImageUrl = banner;
 
   return (
     <div
-      className={`bg-cover bg-center h-96`}
+      className={`bg-cover  bg-center h-96`}
       style={{ backgroundImage: `url(${backgroundImageUrl})` }}
     >
+
       <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 justify-center items-center h-full">
         <div className="text-white text-2xl flex flex-col">
           <span>WILLKOMMEN</span>
