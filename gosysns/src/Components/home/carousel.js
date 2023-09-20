@@ -8,7 +8,7 @@ const Carousel = () => {
   const sliderRef = useRef(null);
 
   const settings = {
-    dots: true,
+   
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -25,6 +25,7 @@ const Carousel = () => {
   };
 
   return (
+    <div className="mt-20">
     <div
       className="w-custom-container mx-0 sm:mx-0 md:mx-auto"
       onKeyDown={handleArrowKeys}
@@ -43,7 +44,12 @@ const Carousel = () => {
         <div className="p-12">
           <CarouselCard />
         </div>
+        
       </Slider>
+      <div className="flex justify-center gap-4 ">
+          <button className="bg-primary text-sm rounded-md px-10 text-white py-1">Weltere benweign</button>
+          </div>
+    </div>
     </div>
   );
 };

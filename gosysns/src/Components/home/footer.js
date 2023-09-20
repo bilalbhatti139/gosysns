@@ -2,8 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-white p-8">
-      <div className="container mx-auto">
+    <div className="mt-20">
+    <div className="bg-secondary text-white p-8">
+      <div className="w-custom-container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 ">
           <div>
             <h1 className="text-2xl text-primary font-semibold">GOSYSNS</h1>
@@ -19,7 +20,7 @@ const Footer = () => {
               <h1 className="text-2xl  text-primary font-semibold">
                 Rechtiliches
               </h1>
-              <div className="absolute md:block hidden bottom-0 left-[7.5rem] w-20 border-b-2 border-primary"></div>
+              <div className="absolute md:block hidden bottom-0 left-[4rem] w-20 border-b-2 border-primary"></div>
             </div>
 
             <p>impression</p>
@@ -32,7 +33,7 @@ const Footer = () => {
               <h1 className="text-2xl  text-primary font-semibold">
                 Rechtiliches
               </h1>
-              <div className="absolute md:block hidden bottom-0 left-[7.5rem] w-20 border-b-2 border-primary"></div>
+              <div className="absolute md:block hidden bottom-0 left-[4rem] w-20 border-b-2 border-primary"></div>
             </div>
 
             <p>impression</p>
@@ -43,7 +44,7 @@ const Footer = () => {
           <div>
             <div className="relative">
               <h1 className="text-2xl  text-primary font-semibold">Uber Uns</h1>
-              <div className="absolute md:block hidden bottom-0 left-[8.5rem] w-20 border-b-2 border-primary"></div>
+              <div className="absolute md:block hidden bottom-0 left-[5rem] w-20 border-b-2 border-primary"></div>
             </div>
 
             <p>impression</p>
@@ -56,7 +57,8 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Company Name. All rights reserved.
         </div> */}
       </div>
-    </footer>
+    </div>
+    </div>
   );
 };
 

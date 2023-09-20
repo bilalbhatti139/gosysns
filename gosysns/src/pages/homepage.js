@@ -7,19 +7,38 @@ import GameBanner from "../Components/home/gameBanner";
 import CartCard from "../Components/home/cartCard";
 import StarBanner from "../Components/home/startBanner";
 import Footer from "../Components/home/footer";
-import OwlCarousel from "../Components/home/carousel";
+import Carousel from "../Components/home/carousel";
+import Button from "../Components/home/button";
 const HomePage = () => {
   return (
     <div className="bg-primary2">
       <Navbar />
-      <Banner  />
+      {/* <div class="relative">
+        <div class=" ">
+          <Banner />
+        </div>
+        <div class="absolute inset-0 top-96 ">
+          <Card />
+        </div>
+      </div>
+      <SupportCard />
+      <GameBanner />
+      <CartCard />
+      <StarBanner />
+      <Carousel />
+
+      <Button />
+      <Footer /> */}
+
+      {/* <Banner />
       <Card />
       <SupportCard />
       <GameBanner />
-      <CartCard/>
-      <StarBanner/>
-      <Footer/>
-      <OwlCarousel/>
+      <CartCard />
+      <StarBanner />
+      <OwlCarousel /> */}
+
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -13,7 +13,7 @@ function Navbar() {
     <div className="bg-blue py-0 md:py-4">
       <div className="w-custom-container mx-0 sm:mx-0 md:mx-auto">
         {/* The Navbar content */}
-        <div className="md:flex inline-block md:justify-evenly items-center">
+        <div className="md:flex hidden inline-block md:justify-between items-center">
           <div className="md:flex inline-block items-center">
             <div className="text-[#45FFCA]  font-bold text-xl">LOGO</div>
             <div className="md:hidden block">
@@ -41,7 +41,7 @@ function Navbar() {
               )}
             </div>
           </div>
-          <div className="hidden md:flex text-sm space-x-4">
+          <div className="hidden md:flex text-sm space-x-8">
             <a href="#" className="text-white hover:text-gray-300">
               RootServer
             </a>
@@ -66,6 +66,7 @@ function Navbar() {
             </button>
           </div>
         </div>
+        
       </div>
     </div>
   );

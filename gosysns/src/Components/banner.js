@@ -6,19 +6,22 @@ const Banner = () => {
 
   return (
     <div
-      className={`bg-cover  bg-center h-96`}
+      className={`bg-cover relative bg-center  h-[500px]`}
       style={{ backgroundImage: `url(${backgroundImageUrl})` }}
     >
+        
 
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 justify-center items-center h-full">
-        <div className="text-white text-2xl flex flex-col">
+      <div className="flex justify-between w-custom-container md:mx-auto sm:grid-cols-1 grid-cols-1  items-center h-full">
+        <div className="text-white text-3xl text-left  flex flex-col">
           <span>WILLKOMMEN</span>
           <span>
             <span className="text-green-500"> GO</span> SYNX.COM
           </span>
+          <div className="flex flex-col mt-4">
           <span>Schnell.</span>
           <span>Funktional.</span>
           <span>Gunstig</span>
+          </div>
         </div>
         <div className="flex  items-center justify-center">
           <img src={logo} alt="Your Image" />

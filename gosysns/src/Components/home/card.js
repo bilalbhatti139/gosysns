@@ -3,8 +3,9 @@ import { BiUser } from "react-icons/bi";
 
 const Card = () => {
   return (
-    <div className=" ">
+    <div className="">
       <div className="w-custom-container  mx-0 sm:mx-0 md:mx-auto">
+       
         <div className="grid grid-cols-4 border  bg-white shadow-md gap-4 rounded-md p-4">
           <div className="border-r border-green-700 p-4 flex items-center flex-col">
             <BiUser className="text-green-400" />
