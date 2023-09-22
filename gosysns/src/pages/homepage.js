@@ -9,26 +9,26 @@ import StarBanner from "../Components/home/startBanner";
 import Footer from "../Components/home/footer";
 import Carousel from "../Components/home/carousel";
 import Button from "../Components/home/button";
+import TopBar from "../Components/home/topBar";
+import EndBar from "../Components/home/endBar";
+import CardBanner from "../Components/home/cardBanner";
 const HomePage = () => {
   return (
-    <div className="bg-primary2">
+    <div className="bg-secondary">
+      <TopBar/>
       <Navbar />
-      {/* <div class="relative">
-        <div class=" ">
-          <Banner />
-        </div>
-        <div class="absolute inset-0 top-96 ">
-          <Card />
-        </div>
-      </div>
+     <CardBanner/>
       <SupportCard />
       <GameBanner />
       <CartCard />
       <StarBanner />
       <Carousel />
 
-      <Button />
-      <Footer /> */}
+<Button />
+<Footer />
+<EndBar/>
+      
+      
 
       {/* <Banner />
       <Card />

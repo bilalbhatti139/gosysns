@@ -3,11 +3,11 @@ import React from "react";
 const Button = () => {
   return (
     <div className='mt-20'>
-    <div className="w-custom-container md:mx-auto  sm:mx-0 mx-0">
+    <div className="max-w-screen-lg md:mx-auto  sm:mx-0 mx-0">
       <div className="flex flex-col ">
         <div className="flex">
-          <h1 className="text-3xl text-white">
-            <span className="text-primary">Bareit? </span>Lass uns Starten!
+          <h1 className="text-4xl font-semibold text-white">
+            <span className="text-primary font-semibold">Bareit? </span>Lass uns Starten!
           </h1>
         </div>
         <div className="flex gap-4 ">

@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#45FFCA", // Your custom primary color
-        primary2: "#071952",
-        secondary:'#070c52',
+        primary: "#0DD999", // Your custom primary color
+        primary2: "#091E2E",
+        secondary:'#021626',
         // You can define more custom colors here
       },
-      width: {
+      maxWidth: {
         'custom-container': "1024px", // Use hyphens to separate words
       },
     },

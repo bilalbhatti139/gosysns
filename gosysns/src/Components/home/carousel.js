@@ -27,7 +27,7 @@ const Carousel = () => {
   return (
     <div className="mt-20">
     <div
-      className="w-custom-container mx-0 sm:mx-0 md:mx-auto"
+      className="max-w-screen-lg mx-0 sm:mx-0 md:mx-auto"
       onKeyDown={handleArrowKeys}
       tabIndex={0} // Make the container focusable to capture key events
     >
@@ -44,6 +44,7 @@ const Carousel = () => {
         <div className="p-12">
           <CarouselCard />
         </div>
+        
         
       </Slider>
       <div className="flex justify-center gap-4 ">

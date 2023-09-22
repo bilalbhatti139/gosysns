@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'TommyFont';
+    src: url('../src/assets/fonts/MADE\ TOMMY\ Black\ Outline_PERSONAL\ USE.otf') format('truetype');
+    src: url('../src/assets/fonts/MADE\ TOMMY\ Medium\ Outline_PERSONAL\ USE.otf') format('truetype');
+    src: url('../src/assets/fonts/MADE\ TOMMY\ Regular\ Outline_PERSONAL\ USE.otf') format('truetype');
+
+
+    /* Include additional font styles (bold, italic, etc.) if needed */
+  }
+  body{
+    font-family: 'Tommy', sans-serif;
+  }
+  .custombackground{
+    background-image: linear-gradient(to bottom,  transparent, #021626), url(../src/assets/cover.jpg);
+}
