@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaUserAlt } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import logo from "../../assets/logo.png";
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -62,8 +63,8 @@ function Navbar() {
           </div>
           <div className="md:flex hidden sm:hidden justify-between items-center">
             <button className="text-white px-4 text-sm rounded-md py-1 bg-primary">
-              <span className="flex items-center">
-                <FaUserAlt className="text-white  mr-1 text-base font-bold" />
+              <span className="flex items-center gap-2">
+                <FaUserAlt className="text-white text-base font-bold" />
                 <span className="text-base flex items-center font-bold">
                   LOGIN
                 </span>

@@ -13,33 +13,34 @@ const StarBanner = () => {
         <div
           className={`bg-cover bg-center bg-primary h-52 flex justify-center`}
           style={{
-            
             clipPath: "polygon(0% 0, 100% 0%, 66% 100%, 0% 100%)",
           }}
         >
           <div className="text-white justify-center items-center text-2xl flex">
             <div className="flex flex-col items-start ">
-              <span className="text-4xl">Das denken unsere</span>
-              <span className=" text-4xl">Kunden über uns!</span>
-              <p className="text-sm">We legen hochestan Wert auf Kundzenurfnedrenheit</p>
+              <span className="text-4xl font-bold">Das denken unsere</span>
+              <span className=" text-4xl font-bold">Kunden über uns!</span>
+              <p className="text-sm">
+                We legen hochestan Wert auf Kundzenurfnedrenheit
+              </p>
             </div>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <div className="flex text-white text-2xl">
-            <div className="flex items-center">
-             <img src={logo} alt='pic' className="h-[40px]"/>
+            <div className="flex items-center justify-center">
+              <img src={logo} alt="pic" className="w-[50%]" />
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="flex text-xl">
+            <div className="flex text-3xl">
               <AiFillStar className="text-primary" />
               <AiFillStar className="text-primary" />
               <AiFillStar className="text-primary" />
               <AiFillStar className="text-primary" />
               <FaStarHalfStroke className="text-primary" />
             </div>
-            <div className="flex text-center justify-center flex-start text-white">
+            <div className="flex text-center justify-center flex-start text-white text-[20px]">
               <span className="">3.8 out of 5</span>
             </div>
           </div>

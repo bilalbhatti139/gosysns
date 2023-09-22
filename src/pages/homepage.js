@@ -15,20 +15,18 @@ import CardBanner from "../Components/home/cardBanner";
 const HomePage = () => {
   return (
     <div className="bg-secondary">
-      <TopBar/>
+      <TopBar />
       <Navbar />
-     <CardBanner/>
+      <CardBanner />
       <SupportCard />
       <GameBanner />
       <CartCard />
       <StarBanner />
       <Carousel />
 
-<Button />
-<Footer />
-<EndBar/>
-      
-      
+      <Button />
+      <Footer />
+      <EndBar />
 
       {/* <Banner />
       <Card />

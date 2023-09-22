@@ -8,7 +8,6 @@ const Carousel = () => {
   const sliderRef = useRef(null);
 
   const settings = {
-   
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -26,31 +25,31 @@ const Carousel = () => {
 
   return (
     <div className="mt-20">
-    <div
-      className="max-w-screen-lg mx-0 sm:mx-0 md:mx-auto"
-      onKeyDown={handleArrowKeys}
-      tabIndex={0} // Make the container focusable to capture key events
-    >
-      <Slider ref={sliderRef} {...settings}>
-        <div className="p-12">
-          <CarouselCard />
-        </div>
-        <div className="p-12">
-          <CarouselCard />
-        </div>
-        <div className="p-12">
-          <CarouselCard />
-        </div>
-        <div className="p-12">
-          <CarouselCard />
-        </div>
-        
-        
-      </Slider>
-      <div className="flex justify-center gap-4 ">
-          <button className="bg-primary text-sm rounded-md px-10 text-white py-1">Weltere benweign</button>
+      <div
+        className="max-w-screen-lg mx-0 sm:mx-0 md:mx-auto"
+        onKeyDown={handleArrowKeys}
+        tabIndex={0} // Make the container focusable to capture key events
+      >
+        <Slider ref={sliderRef} {...settings}>
+          <div className="p-4">
+            <CarouselCard />
           </div>
-    </div>
+          <div className="p-4">
+            <CarouselCard />
+          </div>
+          <div className="p-4">
+            <CarouselCard />
+          </div>
+          <div className="p-4">
+            <CarouselCard />
+          </div>
+        </Slider>
+        <div className="flex justify-center gap-4 ">
+          <button className="bg-primary text-md rounded-md px-5 text-white py-1">
+            Weltere benweign
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

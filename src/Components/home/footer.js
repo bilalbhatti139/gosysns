@@ -7,12 +7,12 @@ const Footer = () => {
         <div className="max-w-screen-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 ">
             <div className="flex items-center flex-col">
-            <img src={logo} alt="pic" className="h-[40px]  " />
+              <img src={logo} alt="pic" className="h-[40px]  " />
               <h1 className="font-bold text-2xl">
-                <span className="text-primary">GO</span>Syns
+                <span className="text-primary">Go</span>Syns
               </h1>
-            
-              <p className="text-xs mt-2 px-20">
+
+              <p className="text-md text-[#C0C0C0] mt-2 px-10">
                 Dev Provider fur Service Producto odrer so ich wobas noch nicht
                 lass mich in runhe ALEx!
               </p>

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
   font-family: "TommyFont";
   src: url("../src/assets/fonts/MADE\ TOMMY\ Black\ Outline_PERSONAL\ USE.otf")
@@ -17,6 +19,26 @@ body {
   font-family: "Tommy", sans-serif;
 }
 .custombackground {
-  background-image: linear-gradient(to bottom, transparent, #021626),
+  background-image: linear-gradient(to bottom, transparent, hsl(207, 90%, 8%)),
     url(../src/assets/cover.jpg);
+}
+
+.custombackground-2 {
+  background-image: linear-gradient(to right bottom, hsla(207, 90%, 8%, 0.563), hsla(207, 41%, 23%, 0.563)),
+    url(../src/assets/banner.jpg);
+}
+
+
+.slick-prev:before {
+  content: '\2190' !important; /* Unicode arrow character for left arrow */
+  font-family: initial !important;
+}.slick-next:before {
+  content: '\2192' !important; /* Unicode arrow character for left arrow */
+  font-family: initial !important;
+}
+
+
+.slick-prev:before, .slick-next:before {
+  color: white !important;
+  font-size: 30px !important;
 }
