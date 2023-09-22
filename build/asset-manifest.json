@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8cb957a3.css",
+    "main.js": "/static/js/main.418b3e9c.js",
+    "static/js/787.b6d97431.chunk.js": "/static/js/787.b6d97431.chunk.js",
+    "static/media/cover.jpg": "/static/media/cover.5f274ff79cdb81479152.jpg",
+    "static/media/jay.png": "/static/media/jay.7af41b164246ef6cb512.png",
+    "static/media/MADE TOMMY Medium Outline_PERSONAL USE.otf": "/static/media/MADE TOMMY Medium Outline_PERSONAL USE.9ddbb49204542454a4a9.otf",
+    "static/media/MADE TOMMY Regular Outline_PERSONAL USE.otf": "/static/media/MADE TOMMY Regular Outline_PERSONAL USE.bf647c3114e3e88d6aa4.otf",
+    "static/media/MADE TOMMY Black Outline_PERSONAL USE.otf": "/static/media/MADE TOMMY Black Outline_PERSONAL USE.fb6e9cb710791e704997.otf",
+    "static/media/banner.jpg": "/static/media/banner.4961ed7755c829c45934.jpg",
+    "static/media/logo.png": "/static/media/logo.26f8d3e3a36c3cc41e96.png",
+    "static/media/star.png": "/static/media/star.1c72d55577b7edb02fd9.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/phone.svg": "/static/media/phone.7f7d543748e059daa4517a0947b6a842.svg",
+    "main.8cb957a3.css.map": "/static/css/main.8cb957a3.css.map",
+    "main.418b3e9c.js.map": "/static/js/main.418b3e9c.js.map",
+    "787.b6d97431.chunk.js.map": "/static/js/787.b6d97431.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cb957a3.css",
+    "static/js/main.418b3e9c.js"
+  ]
+}
