@@ -44,11 +44,11 @@ const Carousel = () => {
             <CarouselCard />
           </div>
         </Slider>
-        <div className="flex justify-center gap-4 ">
+        {/* <div className="flex justify-center gap-4 ">
           <button className="bg-primary text-md rounded-md px-5 text-white py-1">
             Weltere benweign
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

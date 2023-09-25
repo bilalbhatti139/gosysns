@@ -24,7 +24,7 @@ body {
 }
 
 .custombackground-2 {
-  background-image: linear-gradient(to right bottom, hsla(207, 90%, 8%, 0.563), hsla(207, 41%, 23%, 0.563)),
+  background-image: linear-gradient(to right bottom, hsla(207, 90%, 8%, 3.563), hsla(207, 41%, 23%, 0.75)),
     url(../src/assets/banner.jpg);
 }
 
@@ -41,4 +41,18 @@ body {
 .slick-prev:before, .slick-next:before {
   color: white !important;
   font-size: 30px !important;
+  font-weight: bolder !important;
+}
+
+.my-footer{
+  clip-path: ellipse(50% 10% at 50% 50%);
+
+}
+.curved{
+  background-image:
+  url(../src/assets/Curved.png);
+}
+
+.w-100vw{
+  width: 100vw !important;
 }

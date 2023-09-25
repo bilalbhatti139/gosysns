@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../assets/cover.jpg";
-import logo from "../assets/NukeHostLogo.png";
+import logo from "../assets/headerphoto.png";
 const Banner = () => {
   const backgroundImageUrl = banner;
 
@@ -20,13 +20,8 @@ const Banner = () => {
             <span>Gunstig.</span>
           </div>
         </div>
-        <div
-          className="flex  items-center  justify-center bg-primary"
-          style={{
-            clipPath: "ellipse(40% 39% at 49% 50%)",
-          }}
-        >
-          <img src={logo} alt="Your Image" />
+        <div className="flex  items-center  justify-center">
+          <img src={logo} alt="Your Image" className="w-[550px]" />
         </div>
       </div>
     </div>

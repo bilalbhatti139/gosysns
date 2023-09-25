@@ -6,10 +6,10 @@ const CardBanner = () => {
   return (
     <div className="relative ">
       <div className="">
-        <Banner/>
+        <Banner />
       </div>
-      <div class="absolute   inset-0 top-[26rem] ">
-        <Card/>
+      <div class="absolute   inset-0 top-[30rem] ">
+        <Card />
       </div>
     </div>
   );
