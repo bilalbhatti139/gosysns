@@ -21,7 +21,7 @@ const SupportCard = () => {
           <div className="rounded-md bg-primary2 shadow-lg border border-secondary  p-4 flex flex-col">
             <div className="flex items-start gap-4">
               <div>
-                <BsTelephoneFill className="text-primary text-[35px] mt-2" />
+                <BsTelephoneFill className="text-primary text-[45px] mt-2" />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
@@ -44,7 +44,7 @@ const SupportCard = () => {
           <div className="rounded-md bg-primary2 border-secondary border shadow-md p-4 flex flex-col">
             <div className="flex items-start gap-4">
               <div>
-                <FaMoneyCheckDollar className="text-primary text-[40px]" />
+                <FaMoneyCheckDollar className="text-primary text-[50px]" />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
@@ -67,7 +67,7 @@ const SupportCard = () => {
           <div className="rounded-md bg-primary2 border border-secondary shadow-md p-4 flex flex-col">
             <div className="flex items-start gap-4">
               <div>
-                <BiSolidServer className="text-primary text-[40px]" />
+                <BiSolidServer className="text-primary text-[50px]" />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
@@ -88,7 +88,7 @@ const SupportCard = () => {
           <div className="rounded-md bg-primary2 border-secondary border shadow-md p-4 flex flex-col">
             <div className="flex items-start gap-4">
               <div>
-                <BsLaptop className="text-primary text-[40px]" />
+                <BsLaptop className="text-primary text-[50px]" />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">

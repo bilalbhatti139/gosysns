@@ -6,7 +6,7 @@ const CartCard = () => {
   return (
     <div className="mt-20">
       <div className="max-w-screen-lg mx-0 sm:mx-auto md:mx-auto">
-        <div className="flex flex-col justify-center items-center mx-10">
+        <div className="flex flex-col justify-center items-center mx-10 mt-40">
           <h1 className="font-bold  text-5xl text-white">
             <span className="text-primary">Go </span>Syns in zahlen!
           </h1>

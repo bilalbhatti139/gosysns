@@ -9,7 +9,7 @@ const Banner = () => {
       className={`bg-cover relative bg-center  custombackground  h-[500px] `}
     >
       <div className="flex justify-between   max-w-screen-lg md:mx-auto sm:grid-cols-1 grid-cols-1  items-center h-full">
-        <div className="text-white text-4xl text-left  flex flex-col">
+        <div className="text-white text-5xl text-left  flex flex-col">
           <span className="font-medium">WILLKOMMEN</span>
           <span className="font-bold">
             <span className="text-primary font-bold"> GO</span>SYNS.COM
@@ -21,7 +21,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex  items-center  justify-center">
-          <img src={logo} alt="Your Image" className="w-[550px]" />
+          <img src={logo} alt="Your Image" className="w-[600px]" />
         </div>
       </div>
     </div>
