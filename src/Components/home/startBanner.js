@@ -9,12 +9,9 @@ const StarBanner = () => {
 
   return (
     <div className="mt-20">
-      <div className="grid md:grid-cols-2  sm:grid-cols-1 grid-cols-1 justify-center items-center h-full">
+      <div className="grid lg:grid-cols-2  sm:grid-cols-1 grid-cols-1 justify-center items-center h-full">
         <div
-          className={`bg-cover bg-center bg-primary h-52 flex justify-center`}
-          style={{
-            clipPath: "polygon(0% 0, 100% 0%, 66% 100%, 0% 100%)",
-          }}
+          className={`bg-cover bg-center bg-primary h-52 flex justify-center custom-clip-path `}
         >
           <div className="text-white justify-center items-center text-2xl flex">
             <div className="flex flex-col items-start ">
@@ -26,7 +23,7 @@ const StarBanner = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-10 lg:mt-0">
           <div className="flex text-white text-2xl">
             <div className="flex items-center justify-center">
               <img src={logo} alt="pic" className="w-[50%]" />

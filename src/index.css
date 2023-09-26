@@ -56,3 +56,27 @@ body {
 .w-100vw{
   width: 100vw !important;
 }
+
+.custom-clip-path {
+
+  clip-path: polygon(0 0, 100% 0%, 66% 100%, 0% 100%);
+}
+
+@media (max-width: 1023px) {
+  .custom-clip-path {
+
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+
+
+
+.slick-dots li button:before {
+  font-size: 20px !important; /* Adjust the font size as needed */
+  color: #89939B !important; /* Change this to the desired color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0DD999 !important; /* Change this to the desired color for active dots */
+}

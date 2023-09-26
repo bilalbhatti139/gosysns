@@ -11,11 +11,13 @@ const SupportCard = () => {
     <div className="mt-96">
       <div className="max-w-screen-lg mx-0 sm:mx-auto md:mx-auto">
         {/* <h1 className="flex  text-3xl text-primary"> Warum GOSYNS?</h1> */}
-        <div className="relative">
-          <h1 className="flex  text-3xl text-white font-bold">Warum GoSyns?</h1>
-          <div className="absolute md:block hidden bottom-[-5px]  w-36 border-b-4 border-primary"></div>
+        <div className="px-10 md:px-10 lg:px-0">
+          <h1 className="text-4xl text-white font-bold text-left">
+            Warum GoSyns?
+          </h1>
+          <div className="w-36 border-b-4 border-primary mt-1"></div>
         </div>
-        <div className="grid grid-cols-4 py-10 gap-16 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 gap-10 px-10 md:px-10 lg:px-0">
           <div className="rounded-md bg-primary2 shadow-lg border border-secondary  p-4 flex flex-col">
             <div className="flex items-start gap-4">
               <div>
@@ -23,18 +25,18 @@ const SupportCard = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
-                  <h2 className="text-lg text-white font-semibold">
+                  <h2 className="text-xl text-white font-semibold">
                     24/7 Support
                   </h2>
                 </div>
                 <div className="flex items-baseline">
-                  <span className="text-left text-[#89939B] text-xs ">
+                  <p className="text-left text-[#89939B] text-base">
                     Dashboard Token System
-                  </span>
+                  </p>
                 </div>
               </div>
             </div>
-            <p className=" mt-3 text-[#89939B] text-xs">
+            <p className=" mt-3 text-[#89939B] text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -46,18 +48,18 @@ const SupportCard = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
-                  <h2 className="text-lg text-white font-semibold">
+                  <h2 className="text-xl text-white font-semibold">
                     100% Prepaid
                   </h2>
                 </div>
                 <div className="flex items-baseline">
-                  <span className="text-left text-[#89939B] text-xs ">
+                  <span className="text-left text-[#89939B] text-base ">
                     Dashboard Token System
                   </span>
                 </div>
               </div>
             </div>
-            <p className=" mt-3 text-[#89939B] text-xs">
+            <p className=" mt-3 text-[#89939B] text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -69,16 +71,16 @@ const SupportCard = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
-                  <h2 className="text-lg text-white font-semibold">Hardware</h2>
+                  <h2 className="text-xl text-white font-semibold">Hardware</h2>
                 </div>
                 <div className="flex items-baseline">
-                  <span className="text-left text-[#89939B] text-xs ">
+                  <span className="text-left text-[#89939B] text-base ">
                     Dashboard Token System
                   </span>
                 </div>
               </div>
             </div>
-            <p className=" text-[#89939B] mt-3 text-xs">
+            <p className=" text-[#89939B] mt-3 text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -90,18 +92,18 @@ const SupportCard = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
-                  <h2 className="text-lg text-white font-semibold">
+                  <h2 className="text-xl text-white font-semibold">
                     Interface
                   </h2>
                 </div>
                 <div className="flex items-baseline">
-                  <span className="text-left  text-[#89939B] text-xs ">
+                  <span className="text-left  text-[#89939B] text-base ">
                     Dashboard Token System
                   </span>
                 </div>
               </div>
             </div>
-            <p className=" text-[#89939B] mt-3 text-xs">
+            <p className=" text-[#89939B] mt-3 text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
